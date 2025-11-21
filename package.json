@@ -1,0 +1,24 @@
+{
+  "name": "t2gai",
+  "version": "1.0.0",
+  "description": "Text to GameAI - AI-powered game and web page generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "openai": "^4.52.7",
+    "dotenv": "^16.4.5",
+    "axios": "^1.12.2",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  }
+}
+
